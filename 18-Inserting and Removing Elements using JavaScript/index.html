@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container red bg-green">
+        <div class="box">Hey I'm a box</div>
+        <div class="box">Hey I'm a box</div>
+
+        <script>
+            let div=document.createElement("div");
+            div.innerHTML="This div is created using js"
+            
+            div.setAttribute("class", "created")
+            document.querySelector(".container").append(div)
+
+        </script>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

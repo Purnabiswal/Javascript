@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: flex;
+            padding: 25px;
+            background-color: black;
+            color: white;
+        }
+
+        .leftContent{
+            position: relative;
+            background-color: black;
+            height: 100px;
+            width: 160px;
+        }
+
+        .leftContent img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            
+        }
+
+        .leftContent h2{
+            position: absolute;
+            bottom: 8px;
+            right: 4px;
+
+
+            font-size: 17px;
+            background-color: rgb(0, 0, 0, 0.8);
+            width: 40px;
+            border-radius: 4px;
+            padding: 4px;
+            margin: 0;
+
+        }
+
+        .rightContent{
+            padding-left: 14px;
+            height: 100px;
+        }
+
+        .subText{
+            display: flex;
+            margin-top: 8px;
+            margin: 0;
+            padding: 0;
+
+            gap: 15px;
+            color: #a4a4a4;
+        }
+
+      
+        .card h1{
+            margin: 0;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        
+        <div class="card">
+            
+            <div class="leftContent">
+                <img id="thumbnail" src="" alt="thumbnail">
+                <h2 id="duration">00:00</h2>
+            </div>
+            <div class="rightContent">
+                <h1 id="title">Title</h1>
+                <div  class="subText">
+                    <h3 id="cName">Hello</h2>
+                    <h3 id="views">Hello</h2>
+                    <h3 id="monthsOld">Hello</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
